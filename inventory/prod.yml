@@ -1,0 +1,7 @@
+---
+elasticsearch:
+  hosts:
+    172.22.160.1:
+      ansible_connection: ssh
+      ansible_user: vagrant
+      ansible_ssh_port: 1122
